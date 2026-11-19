@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/uccp-bradford-favicon.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UCCP Bradford - Admin Portal</title>
+    <script>
+      // Set the theme before the page paints, so a dark page does not flash white.
+      // src/ui/theme.ts owns the setting once the app loads.
+      try {
+        var theme = localStorage.getItem('theme');
+        if (
+          theme === 'dark' ||
+          (theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)
+        )
+          document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/assets/index-BJI9xr3w.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-BiX_BIZ9.js">
+    <link rel="modulepreload" crossorigin href="/assets/LoadError-Cw6348Vl.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-Dl554zYv.js">
+    <link rel="modulepreload" crossorigin href="/assets/firebase-GlObF2oP.js">
+    <link rel="modulepreload" crossorigin href="/assets/check-D2URijZD.js">
+    <link rel="modulepreload" crossorigin href="/assets/calendar-days-Cgijdg7n.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-DejUgnxp.js">
+    <link rel="modulepreload" crossorigin href="/assets/DateWindowPicker-DkV8DyKl.js">
+    <link rel="modulepreload" crossorigin href="/assets/map-pin-B_OdWgpT.js">
+    <link rel="modulepreload" crossorigin href="/assets/Pager-BMhABHl_.js">
+    <link rel="modulepreload" crossorigin href="/assets/label-BXqXUboT.js">
+    <link rel="modulepreload" crossorigin href="/assets/input-DCQw2ONI.js">
+    <link rel="modulepreload" crossorigin href="/assets/useNow-DZsOXNJj.js">
+    <link rel="modulepreload" crossorigin href="/assets/ConfirmButton-DxE_ovOV.js">
+    <link rel="modulepreload" crossorigin href="/assets/useDebounced-DVaenjz5.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DVgRdrdN.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+import{a as e,n as t}from"./jsx-runtime-BiX_BIZ9.js";var n=e(t(),1);function r(){let[e,t]=(0,n.useState)(()=>new Date);return(0,n.useEffect)(()=>{let e=setInterval(()=>t(new Date),6e4);return()=>clearInterval(e)},[]),e}export{r as t};
